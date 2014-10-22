@@ -25,6 +25,8 @@ Run the performance test:
 
     ruby -Ilib:test benchmark.rb
 
+Note: I'm using ruby 2.1.2p95
+
 ##Implementation Notes
 
 Since the requirement is to print a table with the first 10 prime numbers, I used a trial division generator for the main app because although it has a complexity of O(N^2/2) it is sufficiently fast for the requirement and less complicated, thus easier to maintain and less likely to introduce bugs. 
