@@ -37,10 +37,10 @@ At first I couldn’t think of a really effective way to unit test a prime gener
 
 I implemented the MultiplicationTablePrinter to use a generic generator class to create a list of numbers and then print the numbers. The two prime number generators can be used to create the number list, or any other class that provides a create_number_list method can also be used
 
-I threw all of the unit tests in the same file just to make it easier to review. Each unit test should probably have it’s own file in the real world. I also put all the files in the same directory to make reviewing easier, no need to navigate into test directories or whatnot.
+I threw all of the unit tests in the same file just to make it easier to review. Each class should probably have it’s own unit test file in the real world. I also put all the files in the same directory to make reviewing easier, no need to navigate into test directories or whatnot.
 
 ##Style Notes
 
-I've been writing mostly Java and JavaScript at the moment so that syntax is most present in my brain at this moment. I've done my best to use the typical Ruby style here. With less Java and More Ruby I can improve this, and of course I would also learn and use whatever style guidelines you all have.
+I've been writing more Java and JavaScript recently so that syntax is most present in my brain at this moment. I've done my best to use the typical Ruby style here. With less Java and More Ruby I can improve this, and of course I would also learn and use whatever style guidelines you all have.
 
 I try to code with descriptive method and variables names to reduce the amount of comments needed. My philosophy is that it’s better to write more understandable code than it is to write long comments that could get out of sync with the code. 
