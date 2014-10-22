@@ -11,6 +11,8 @@ It includes the following files:
 * unit\_test.rb - Minitest unit test for the MultiplicationTablePrinter class and prime generator classes
 * benchmark.rb - Minitest performance test for the two prime generators
 
+Bonus: http://plnkr.co/edit/nFyzaTLgNirFGOCFsewq
+
 How to run the app:
 
     ./prime_app.rb 
